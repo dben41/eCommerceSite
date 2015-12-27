@@ -1,7 +1,6 @@
-eCommerceSite
+E-Commerce Application
 =============
 
-I had to design, implement, and document a database system for an online bookstore, written for CS 5530, my Database class at the University of Utah. This is pretty much an e-commerce site. I went above and beyond in styling and functionality, with eBay as my inspiration. While only limited code is provided here, I can provide more upon request.
+In this project, I designed, implemented and documented a database system for an online bookstore. The full project specifications can be found on the **Project Description & Specs** PDF document. Has a JSP back-end, hosted on an Apache Server, uses MYSQL to model the data, and has an attractive UI using Twitter's Bootstrap. 
 
-Live Preview:
-http://georgia.eng.utah.edu:8080/~cs5530u64/index.jsp
+
