@@ -12,10 +12,6 @@ import classes.Feedback;
 
 
 public class HelperMethods {
-
-	
-	
-
 	
 	/**
 	 * Creates the HTML header text for all pages.

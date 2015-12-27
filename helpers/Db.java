@@ -2,8 +2,6 @@
  * This contains all the necessary info to connect 
  * to the database and to run the queries, and return 
  * correct info to the user interface.
- *
- *  MUCH OF THIS CLASS HAS BEEN OMMITTED FOR THE PREVIEW
  * 
  * @author Daryl Bennett
  * @date Spring 2014
@@ -31,9 +29,9 @@ public class Db {
 	DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
 	public Db() throws Exception{
 		try{
-		 	String userName = "xxxx"; //these have been ommitted for the preview
-	   		String password = "xxxxx"; //these have been ommitted for the preview
-	        String url = "jdbc:mysql://xxxx"; //these have been ommitted for the preview
+		 	String userName = "xxxx"; //the credentials now longer work, since the instance is no longer deployed.
+	   		String password = "xxxxx"; 
+	        String url = "jdbc:mysql://xxxx"; 
 		    Class.forName ("com.mysql.jdbc.Driver").newInstance ();
 		    con = DriverManager.getConnection (url, userName, password);
 			//stmt = con.createStatement();
